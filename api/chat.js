@@ -1,4 +1,3 @@
-return res.status(503).json({ error: '현재 서비스 점검 중입니다.' });
 / IP별 요청 횟수 저장 (서버 메모리)
 const ipRequestMap = new Map();
  
