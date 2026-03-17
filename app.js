@@ -166,7 +166,7 @@ async function callGemini(question, sectionText) {
 
 ${sectionText ? `[매뉴얼 데이터]\n${sectionText}` : ""}`;
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
   const contents = [
     ...chatHistory.slice(-6),
